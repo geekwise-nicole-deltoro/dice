@@ -1,28 +1,100 @@
 html,body{
     margin: 0 auto;
     padding: 0;
+    width: 100%;
+    height: auto;
     font-size: 62.5%;
 }
 
 div{
     margin: 0 auto;
     margin-top: 3rem;
-    width: 30em;
-    height: 30em;
+    padding: 0;
+    width: 20em;
+    height: 20em;
     background-color: blue;
     border: 0.5rem solid black;
     
 }
 
-div > div{
+#inside{
     position: relative;
-    justify-content: space-around;
     padding: 0;
-    width: 9em;
-    height: 9em;
+    width: 5rem;
+    height: 5rem;
     background-color: black;
     border-radius: 50rem;
-    top 50%;
-    transform: translateY(-50%);
 }
 
+#circle1{
+  float: left;
+  margin: 0 auto;
+  height: 5em;
+  width: 5em;
+  border-radius: 50rem;
+  background-color: #000000;
+  position: relative;
+}
+
+#circle2{
+    border-radius: 50rem;
+    position: relative;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    float: right;
+    margin: 0 auto;
+    padding: 0;
+    top: 50%;
+    transform: translateY(100%);
+}
+
+#circle3{ 
+  float: left;
+  margin: 0 auto;
+  height: 5em;
+  width: 5em;
+  border-radius: 50rem;
+  background-color: #000000;
+  position: relative;
+}
+
+#circle4{
+    border-radius: 50rem;
+    position: relative;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    float: right;
+    margin: 0 auto;
+    padding: 0;
+    top: 50%;
+    transform: translateY(100%);
+}
+ 
+    
+#circle-five{
+    border-radius: 50rem;
+    position: absolute;
+    background-color: black;
+    height: 5rem;
+    width: 5rem;
+
+    
+}
+   
+    
+#circle6{
+    border-radius: 50rem;
+    position: relative;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    float: right;
+    margin: 0 auto;
+    padding: 0;
+    top: 50%;
+    transform: translateY(100%);
+    
+    
+}
