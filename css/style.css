@@ -68,23 +68,168 @@ div{
     float: right;
     margin: 0 auto;
     padding: 0;
-    top: 50%;
-    transform: translateY(100%);
+    top: 90%;
+    transform: translateY(-60%);
 }
  
     
 #circle-five{
+    margin-top: 7em;
+    margin-left: 15px;
     border-radius: 50rem;
     position: absolute;
     background-color: black;
-    height: 5rem;
-    width: 5rem;
+    height: 5em;
+    width: 5em;
 
     
 }
    
     
 #circle6{
+    display: block;
+    border-radius: 50rem;
+    position: relative;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    float: right;
+    margin: 0 auto;
+    padding: 0;
+    top: 45%;
+    transform: translateY(-55%);
+    
+    
+}
+
+#circle7{
+     border-radius: 50rem;
+    position: relative;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    float: left;
+    clear: both;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+#circle8{
+     border-radius: 50rem;
+    position: relative;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    float: right;
+    margin: -30px 20px -30px;
+    top:65%;
+    transform: translateY(--40%);
+}
+
+#circle9{
+    border-radius: 50rem;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    clear: both;
+    float: left;
+    margin: 0 auto;
+    top: 55%;
+    transform: translateY(-65%);
+}
+
+#circle10{
+    border-radius: 50rem;
+    position: relative;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    float: right;
+    margin: 0 auto;
+    top: 45%;
+    transform: translateY(-55%);
+    
+
+}
+
+#circle11{
+    border-radius: 50rem;
+    position: relative;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    float: right;
+    margin: 0 auto;
+    top: 45%;
+    transform: translateY(-55%);
+    
+}
+
+#circle12{
+    border-radius: 50rem;
+    position: relative;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    float: right;
+    margin: 0 auto;
+    top: 45%;
+    transform: translateY(-55%);
+}
+#circle13{
+    display: inline;
+    border-radius: 50rem;
+    position: relative;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    margin: 0 auto;
+    top: 45%;
+    transform: translateY(-55%);
+    
+}
+
+#circle14{
+    border-radius: 50rem;
+    position: relative;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    float: left;
+    margin-bottom: 19rem;
+    top: 60%;
+    transform: translateY(-40%);
+}
+
+#circle15{
+     border-radius: 50rem;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+float: left;
+    margin:0 auto;
+    top: 70%;
+    transform: translateY(-350%);
+    
+}
+     
+    
+#circle16{
+    border-radius: 50rem;
+    position: relative;
+    background-color: white;
+    height: 5em;
+    width: 5em;
+    float: right;
+    margin: 0 auto;
+    padding: 0;
+    top: 50%;
+    transform: translateY(50%);
+    
+}
+
+#circle17{
     border-radius: 50rem;
     position: relative;
     background-color: black;
@@ -94,7 +239,33 @@ div{
     margin: 0 auto;
     padding: 0;
     top: 50%;
-    transform: translateY(100%);
+    transform: translateY(150%);
+
     
-    
+}
+
+#circle18{
+     border-radius: 50rem;
+    position: relative;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    float: right;
+    margin: 0 auto;
+    padding: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#circle19{
+     border-radius: 50rem;
+    position: relative;
+    background-color: brown;
+    height: 5em;
+    width: 5em;
+    float: left;
+    margin:.05em;
+    padding: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
