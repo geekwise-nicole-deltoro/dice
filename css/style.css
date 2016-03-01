@@ -57,6 +57,7 @@ div{
   border-radius: 50rem;
   background-color: #000000;
   position: relative;
+    
 }
 
 #circle4{
@@ -70,6 +71,7 @@ div{
     padding: 0;
     top: 90%;
     transform: translateY(-60%);
+    transform: translateZ(-5%)
 }
  
     
@@ -82,12 +84,12 @@ div{
     height: 5em;
     width: 5em;
 
-    
+    flow-from: inherit;
 }
    
     
 #circle6{
-    display: block;
+clear: both;
     border-radius: 50rem;
     position: relative;
     background-color: black;
@@ -96,35 +98,33 @@ div{
     float: right;
     margin: 0 auto;
     padding: 0;
-    top: 45%;
-    transform: translateY(-55%);
-    
+    top: 52px;
+    transform: translateY(100%);
     
 }
 
 #circle7{
-     border-radius: 50rem;
+    border-radius: 50rem;
+    position: absolute;
+    background-color: black;
+    height: 5em;
+    width: 5em;
+    transform: translateY(-52%);
+    margin: 20px;
+    left: 50%;
+    
+
+}
+
+#circle8{
+    border-radius: 50rem;
     position: relative;
     background-color: black;
     height: 5em;
     width: 5em;
     float: left;
-    clear: both;
-    top: 50%;
-    transform: translateY(-50%);
-
-}
-
-#circle8{
-     border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: -30px 20px -30px;
-    top:65%;
-    transform: translateY(--40%);
+    margin: 0 auto;
+    top: 80px;
 }
 
 #circle9{
@@ -134,9 +134,7 @@ div{
     width: 5em;
     clear: both;
     float: left;
-    margin: 0 auto;
-    top: 55%;
-    transform: translateY(-65%);
+    transform: translateY(-93%);
 }
 
 #circle10{
@@ -174,7 +172,7 @@ div{
     width: 5em;
     float: right;
     margin: 0 auto;
-    top: 45%;
+    top: 17%;
     transform: translateY(-55%);
 }
 #circle13{
@@ -198,7 +196,7 @@ div{
     width: 5em;
     float: left;
     margin-bottom: 19rem;
-    top: 60%;
+    top: 12%;
     transform: translateY(-40%);
 }
 
@@ -222,10 +220,10 @@ float: left;
     height: 5em;
     width: 5em;
     float: right;
-    margin: 0 auto;
+    margin-bottom: 15px;
     padding: 0;
     top: 50%;
-    transform: translateY(50%);
+    transform: translateY(-50%);
     
 }
 
@@ -247,7 +245,7 @@ float: left;
 #circle18{
      border-radius: 50rem;
     position: relative;
-    background-color: black;
+    background-color: lightgoldenrodyellow;
     height: 5em;
     width: 5em;
     float: right;
@@ -268,4 +266,17 @@ float: left;
     padding: 0;
     top: 50%;
     transform: translateY(-50%);
+}
+
+#circle20{
+     border-radius: 50rem;
+    position: relative;
+    background-color: white;
+    height: 5em;
+    width: 5em;
+    float: ;
+    margin: 0 auto;
+    padding: 10%;
+    top: 50%;
+    
 }
