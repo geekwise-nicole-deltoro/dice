@@ -1,282 +1,91 @@
 html,body{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    width: 100%;
-    height: auto;
-    font-size: 62.5%;
-}
+    font-size:62.5%;
 
-div{
+}
+.fa {
+    color: white;
+}
+header{
     margin: 0 auto;
-    margin-top: 3rem;
+    text-align: center;
+    margin-top: 2rem;
     padding: 0;
-    width: 20em;
-    height: 20em;
-    background-color: blue;
-    border: 0.5rem solid black;
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    background-color:grey;
+    font-size: 5rem;
+    border-radius: 10%;
+    line-height: 20rem;
+    
+    
+  
+}
+#dice_two{
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0;
+    width: 20rem;
+    height: 20rem;
+    background-color: red;
+    border-radius: 10%;
     
 }
-
-#inside{
-    position: relative;
-    padding: 0;
-    width: 5rem;
-    height: 5rem;
-    background-color: black;
-    border-radius: 50rem;
+#two_one{
+    margin: 0;
+    padding:1rem ;
+    font-size:5rem;
+    
 }
-
-#circle1{
-  float: left;
-  margin: 0 auto;
-  height: 5em;
-  width: 5em;
-  border-radius: 50rem;
-  background-color: #000000;
-  position: relative;
-}
-
-#circle2{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
+#two_two{
+    margin: 0;
+    padding: 1rem;
+    font-size:5rem;
     float: right;
+    margin-top: 5rem;
+    
+}
+section{
     margin: 0 auto;
+    margin-top: 2rem;
     padding: 0;
-    top: 50%;
-    transform: translateY(100%);
-}
-
-#circle3{ 
-  float: left;
-  margin: 0 auto;
-  height: 5em;
-  width: 5em;
-  border-radius: 50rem;
-  background-color: #000000;
-  position: relative;
-    
-}
-
-#circle4{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: 0 auto;
-    padding: 0;
-    top: 90%;
-    transform: translateY(-60%);
-    transform: translateZ(-5%)
-}
- 
-    
-#circle-five{
-    margin-top: 7em;
-    margin-left: 15px;
-    border-radius: 50rem;
-    position: absolute;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-
-    flow-from: inherit;
-}
-   
-    
-#circle6{
-clear: both;
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: 0 auto;
-    padding: 0;
-    top: 52px;
-    transform: translateY(100%);
-    
-}
-
-#circle7{
-    border-radius: 50rem;
-    position: absolute;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    transform: translateY(-52%);
-    margin: 20px;
-    left: 50%;
-    
-
-}
-
-#circle8{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: left;
-    margin: 0 auto;
-    top: 80px;
-}
-
-#circle9{
-    border-radius: 50rem;
-    background-color: black;
-    height: 5em;
-    width: 5em;
+    width: 20rem;
+    height: 20rem;
+    background-color: red;
+    border-radius: 12%;;
+    font-size: 5rem;
     clear: both;
+    
+}
+#three_one{
+    margin: 0;
+    padding:.5rem;
     float: left;
-    transform: translateY(-93%);
+    width: 80%;
+    height: 5rem;
+    border-style: hidden;
 }
-
-#circle10{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: 0 auto;
-    top: 45%;
-    transform: translateY(-55%);
-    
-
-}
-
-#circle11{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: 0 auto;
-    top: 45%;
-    transform: translateY(-55%);
-    
-}
-
-#circle12{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: 0 auto;
-    top: 17%;
-    transform: translateY(-55%);
-}
-#circle13{
-    display: inline;
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    margin: 0 auto;
-    top: 45%;
-    transform: translateY(-55%);
-    
-}
-
-#circle14{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: left;
-    margin-bottom: 19rem;
-    top: 12%;
-    transform: translateY(-40%);
-}
-
-#circle15{
-     border-radius: 50rem;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-float: left;
-    margin:0 auto;
-    top: 70%;
-    transform: translateY(-350%);
-    
-}
-     
-    
-#circle16{
-    border-radius: 50rem;
-    position: relative;
-    background-color: white;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin-bottom: 15px;
-    padding: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    
-}
-
-#circle17{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
+#three_two{
     margin: 0 auto;
     padding: 0;
-    top: 50%;
-    transform: translateY(150%);
-
-    
+    text-align: center;
+    width: 100%;
+    height: 6rem;
+    border-style: hidden;
+    margin-top:7rem;
+  
+}
+#three_three{
+    margin: 0;
+    padding: .5rem;
+    width:90%;
+    height: 5rem;
+    text-align: right;
+    border-style: hidden;
 }
 
-#circle18{
-     border-radius: 50rem;
-    position: relative;
-    background-color: lightgoldenrodyellow;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: 0 auto;
-    padding: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-#circle19{
-     border-radius: 50rem;
-    position: relative;
-    background-color: brown;
-    height: 5em;
-    width: 5em;
-    float: left;
-    margin:.05em;
-    padding: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-#circle20{
-     border-radius: 50rem;
-    position: relative;
-    background-color: white;
-    height: 5em;
-    width: 5em;
-    float: ;
-    margin: 0 auto;
-    padding: 10%;
-    top: 50%;
+span{
     
 }
