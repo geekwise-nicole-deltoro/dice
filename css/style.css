@@ -155,6 +155,8 @@ span{
    
     
 }
+
+
 #five_two{
     height: 5rem;
     padding: .5rem;
@@ -162,6 +164,8 @@ span{
     text-align: right;
    
 }
+
+
 #five_three{
     width: 45%;
     height: 5rem;
@@ -171,6 +175,7 @@ span{
    
     
 }
+
 #five_four{
      width: 45%;
     height: 5rem;
@@ -180,6 +185,7 @@ span{
     text-align: right;
    
 }
+
 #five_five{
     position: relative;
     top:-112px;
@@ -190,12 +196,14 @@ span{
 }
 
 #six_one{
+    clear: both;
     height: 5rem;
     padding:.5rem;
     float: left;
    
     
 }
+
 #six_two{
     width: 45%;
     height: 5rem;
@@ -205,6 +213,7 @@ span{
     text-align: right;
    
 }
+
 #six_three{
     height: 5rem;
     padding:.5rem;
@@ -212,6 +221,7 @@ span{
    
     
 }
+
 #six_four{
     height: 5rem;
     padding: .5rem;
@@ -220,6 +230,7 @@ span{
    
    
 }
+
 #six_five{
     width: 45%;
     height: 5rem;
@@ -229,6 +240,7 @@ span{
    
     
 }
+
 
 #six_six{
     height: 5rem;
