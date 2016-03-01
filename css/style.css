@@ -1,271 +1,258 @@
 html,body{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    width: 100%;
-    height: auto;
-    font-size: 62.5%;
+    font-size:62.5%;
+    background-color: grey;
+        
 }
 
-div{
+
+.fa {
+    color: white;
+}
+
+
+#Main_dice{
     margin: 0 auto;
     margin-top: 3rem;
     padding: 0;
-    width: 20em;
-    height: 20em;
-    background-color: blue;
-    border: 0.5rem solid black;
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    background-color: navy;
+    font-size: 5rem;
+    border-radius: 10%;
+    line-height: 20rem;
+    text-align: center;
+    
+  
+}
+
+#dice_two{
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0;
+    width: 20rem;
+    height: 20rem;
+    background-color: navy;
+    border-radius: 10%;
     
 }
 
-#inside{
-    position: relative;
+#two_one{
+    margin: 0;
+    padding:1rem ;
+    font-size:5rem;
+    
+}
+#two_two{
+    margin: 0;
+    padding: 1rem;
+    font-size:5rem;
+    float: right;
+    margin-top: 5rem;
+    
+}
+section{
+    margin: 0 auto;
+    margin-top: 2rem;
     padding: 0;
-    width: 5rem;
+    width: 20rem;
+    height: 20rem;
+    background-color: navy;
+    border-radius: 12%;
+    font-size: 5rem;
+    clear: both;
+    
+}
+
+
+#three_one{
+    margin: 0;
+    padding:.5rem;
+    float: left;
+    width: 80%;
     height: 5rem;
-    background-color: black;
-    border-radius: 50rem;
+    border-style: hidden;
 }
 
-#circle1{
-  float: left;
-  margin: 0 auto;
-  height: 5em;
-  width: 5em;
-  border-radius: 50rem;
-  background-color: #000000;
-  position: relative;
-}
 
-#circle2{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
+#three_two{
     margin: 0 auto;
     padding: 0;
-    top: 50%;
-    transform: translateY(100%);
+    text-align: center;
+    width: 100%;
+    height: 6rem;
+    border-style: hidden;
+    margin-top:7rem;
+  
 }
 
-#circle3{ 
-  float: left;
-  margin: 0 auto;
-  height: 5em;
-  width: 5em;
-  border-radius: 50rem;
-  background-color: #000000;
-  position: relative;
+
+#three_three{
+    margin: 0;
+    padding: .5rem;
+    width:90%;
+    height: 5rem;
+    text-align: right;
+    border-style: hidden;
 }
 
-#circle4{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
+span{
+    clear: both;
     margin: 0 auto;
     padding: 0;
-    top: 90%;
-    transform: translateY(-60%);
-}
- 
+    width:  20rem;
+    margin-top: 2rem;
+    height: 20rem;
+    display: block;
+    background-color: navy;
+    border-radius: 10%;
+    font-size: 5rem;
     
-#circle-five{
-    margin-top: 7em;
-    margin-left: 15px;
-    border-radius: 50rem;
-    position: absolute;
-    background-color: black;
-    height: 5em;
-    width: 5em;
+}
 
+#four_one{
+    height: 5rem;
+    padding: .5rem;
+    float: left;
     
 }
+
+#four_two{
+    height: 5rem;
+    padding: .5rem;
+    float: right;
+    text-align: right;
+   
+}
+
+#four_three{
+    clear: both;
+    width: 45%;
+    height: 5rem;
+    padding:.5rem;
+    margin-top: 7rem;
+    float: left;
    
     
-#circle6{
-    display: block;
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: 0 auto;
-    padding: 0;
-    top: 45%;
-    transform: translateY(-55%);
-    
-    
 }
 
-#circle7{
-     border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: left;
+#four_four{
+    height: 5rem;
+    padding: .5rem;
+    float: right;
+    margin-top: 7rem;
+    text-align: right;
+   
+}
+
+
+
+#five_one{
     clear: both;
-    top: 50%;
-    transform: translateY(-50%);
-
+    height: 5rem;
+    padding:.5rem;
+    float: left;
+   
+    
 }
 
-#circle8{
-     border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
+
+#five_two{
+    height: 5rem;
+    padding: .5rem;
     float: right;
-    margin: -30px 20px -30px;
-    top:65%;
-    transform: translateY(--40%);
+    text-align: right;
+   
 }
 
-#circle9{
-    border-radius: 50rem;
-    background-color: black;
-    height: 5em;
-    width: 5em;
+
+#five_three{
+    width: 45%;
+    height: 5rem;
+    padding:.5rem;
+    margin-top: 7rem;
+    float: left;
+   
+    
+}
+
+#five_four{
+     width: 45%;
+    height: 5rem;
+    padding: .5rem;
+    float: right;
+    margin-top: 7rem;
+    text-align: right;
+   
+}
+
+#five_five{
+    position: relative;
+    height: 1.8rem;
+    top: 75px;
+    margin-left: 73px;
+    padding: .5rem;
+    
+   
+}
+
+#six_one{
     clear: both;
+    height: 5rem;
+    padding:.5rem;
     float: left;
-    margin: 0 auto;
-    top: 55%;
-    transform: translateY(-65%);
-}
-
-#circle10{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: 0 auto;
-    top: 45%;
-    transform: translateY(-55%);
-    
-
-}
-
-#circle11{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: 0 auto;
-    top: 45%;
-    transform: translateY(-55%);
+   
     
 }
 
-#circle12{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
+#six_two{
+    width: 45%;
+    height: 5rem;
+    margin: 0;
+    padding: .5rem;
     float: right;
-    margin: 0 auto;
-    top: 45%;
-    transform: translateY(-55%);
-}
-#circle13{
-    display: inline;
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    margin: 0 auto;
-    top: 45%;
-    transform: translateY(-55%);
-    
+    text-align: right;
+   
 }
 
-#circle14{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
+#six_three{
+    height: 5rem;
+    padding:.5rem;
     float: left;
-    margin-bottom: 19rem;
-    top: 60%;
-    transform: translateY(-40%);
-}
-
-#circle15{
-     border-radius: 50rem;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-float: left;
-    margin:0 auto;
-    top: 70%;
-    transform: translateY(-350%);
-    
-}
-     
-    
-#circle16{
-    border-radius: 50rem;
-    position: relative;
-    background-color: white;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: 0 auto;
-    padding: 0;
-    top: 50%;
-    transform: translateY(50%);
+   
     
 }
 
-#circle17{
-    border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: 0 auto;
-    padding: 0;
-    top: 50%;
-    transform: translateY(150%);
-
-    
+#six_four{
+    height: 5rem;
+    padding: .5rem;
+    float: right; 
+    text-align: right;
+   
+   
 }
 
-#circle18{
-     border-radius: 50rem;
-    position: relative;
-    background-color: black;
-    height: 5em;
-    width: 5em;
-    float: right;
-    margin: 0 auto;
-    padding: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-#circle19{
-     border-radius: 50rem;
-    position: relative;
-    background-color: brown;
-    height: 5em;
-    width: 5em;
+#six_five{
+    width: 45%;
+    height: 5rem;
+    padding:.5rem;
     float: left;
-    margin:.05em;
-    padding: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    
+   
+    
 }
+
+
+#six_six{
+    height: 5rem;
+    padding: .5rem;
+    float: right;
+    text-align: right;
+    
+    
+}
+    
+
+
