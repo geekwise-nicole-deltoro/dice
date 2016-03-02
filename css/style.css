@@ -2,13 +2,15 @@ html,body{
     margin: 0;
     padding: 0;
     font-size:62.5%;
-    background-color: grey;
+    background-color: hotpink;
         
 }
 
 
 .fa {
     color: white;
+    
+    
 }
 
 
@@ -16,15 +18,15 @@ html,body{
     margin: 0 auto;
     margin-top: 3rem;
     padding: 0;
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     display: block;
     background-color: navy;
     font-size: 5rem;
-    border-radius: 10%;
-    line-height: 20rem;
+    border-radius: 5%;
     text-align: center;
-    
+    border: solid 1rem white;
+    border-bottom-style: dotted;
   
 }
 
@@ -32,11 +34,12 @@ html,body{
     margin: 0 auto;
     margin-top: 2rem;
     padding: 0;
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
     background-color: navy;
-    border-radius: 10%;
-    
+    border-radius: 5%;
+    border: solid 1rem white; 
+    border-style: double;
 }
 
 #two_one{
@@ -53,14 +56,16 @@ html,body{
     margin-top: 5rem;
     
 }
-section{
+
+#container{
     margin: 0 auto;
     margin-top: 2rem;
     padding: 0;
-    width: 20rem;
-    height: 20rem;
+    border: solid 1rem white;
+    width: 18rem;
+    height: 18rem;
     background-color: navy;
-    border-radius: 12%;
+    border-radius: 5%;
     font-size: 5rem;
     clear: both;
     
@@ -82,7 +87,7 @@ section{
     padding: 0;
     text-align: center;
     width: 100%;
-    height: 6rem;
+    height: 1re;
     border-style: hidden;
     margin-top:7rem;
   
@@ -102,13 +107,14 @@ span{
     clear: both;
     margin: 0 auto;
     padding: 0;
-    width:  20rem;
+    width:  18rem;
     margin-top: 2rem;
-    height: 20rem;
+    height: 18rem;
     display: block;
     background-color: navy;
-    border-radius: 10%;
+    border-radius: 5%;
     font-size: 5rem;
+    border: solid 1rem white;
     
 }
 
@@ -179,7 +185,6 @@ span{
 }
 
 #five_four{
-     width: 45%;
     height: 5rem;
     padding: .5rem;
     float: right;
@@ -193,7 +198,7 @@ span{
     height: 1.8rem;
     top: 75px;
     margin-left: 73px;
-    padding: .5rem;
+    padding: 0;
     
    
 }
@@ -255,4 +260,4 @@ span{
 }
     
 
-
+    

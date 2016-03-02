@@ -3,8 +3,11 @@
 <head>
 <title>DICE</title>
 <link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" media="only screen and (color)" href="example.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<link type="text/css"rel="stylesheet" href="https://fonts.googleapis.com/ss?family=Montserrat"/>
+<link rel="stylesheet" media="all and (min-color-index: 256)" href="http://foo.bar.com/stylesheet.css" />
+<link rel="stylesheet" media="screen and (max-device-height: 799px)"/>
+<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="small-device.css" />
 </head>
 
 <body>
@@ -20,7 +23,7 @@
 <div id="two_two"><i class="fa fa-circle"></i></div>
 </div>
         
-<section>
+<section id="container">
       <section id="three_one"><i class="fa fa-circle"></i></section>
       
       <section id="three_two"><i class="fa fa-circle"></i></section>
@@ -64,8 +67,10 @@
            
 <div id="six_six"><i class="fa fa-circle"></i></div>
     </span>
-         
-         <footer></footer>
+       
+    <footer></footer>
+        
+        
          
          </body>
     </html>
